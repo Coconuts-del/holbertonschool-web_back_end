@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-""" Insert a new document in a collection based on kwargs² """
-import pymongo
+""" Insert a new document in a collection based on kwargs """
 
 
 def insert_school(mongo_collection, **kwargs):
